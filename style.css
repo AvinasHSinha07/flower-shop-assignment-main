@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e0eaed85;
+    background-color: #839ec346;
 }
 
 .banner{
@@ -143,7 +143,7 @@ body{
     width: 70%;
     margin: 0 auto;
     margin-top: 50px ;
-    background-color: rgba(31, 133, 222, 0.369);
+    background-color: rgba(31, 133, 222, 0.382);
     gap: 40px;
     padding: 35px;
     border-radius: 8px;
@@ -196,27 +196,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.hot-deals-button{
+    width: 80px;
+    height: 40px;
 }
 
 .product-heading{
     text-align: center;
     font-size: 45px;
     margin: 25px 0;
+    color: #16233e;
 }
 
 .products{
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    background-color: #e679c716;
+    background-color: #ffffff49;
     padding: 50px;
     text-align: center;
 }
 .card-heading{
     font-size: 18px;
+    margin-top: 10px;
 }
 .card-price{
     font-size: 15px;
+    
 }
 .cards1{
     display: flex;
@@ -254,11 +262,15 @@ body{
     margin-top: 8px;
 }
 .load-btn{
-    width: 80px;
+    width: 120px;
     height: 30px;
     margin-top: 30px;
 }
-
+.hline{
+    color: #0e2050;
+    width: 280px;
+    margin: 0 auto;
+}
 
 
 
@@ -359,4 +371,34 @@ footer{
  justify-content: center;
  gap: 20px;
  margin-top: 20px;
+}
+
+.review{
+    background-color: #0e205064;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 25px;
+}
+.review-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.face{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.rating{
+    background-color: #0e205064;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffffe4;
+    padding: 15px;
 }
