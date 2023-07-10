@@ -52,7 +52,7 @@ body{
     transition: all .3ms .4ms;
 }
 .button:hover{
-    border: 2px solid rgba(255, 255, 255, 0.466);
+    /* border: 2px solid rgba(255, 255, 255, 0.466); */
     cursor: pointer;
     background-color: #205498;
     color: rgb(255, 255, 255);
@@ -143,7 +143,7 @@ body{
     width: 70%;
     margin: 0 auto;
     margin-top: 50px ;
-    background-color: aliceblue;
+    background-color: rgba(31, 133, 222, 0.369);
     gap: 40px;
     padding: 35px;
     border-radius: 8px;
@@ -196,4 +196,63 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.flower-image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+    background-color: #17183ba1;
+    /* width: 80%; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.latest-deals{
+    background-image: url('../flower-shop-assignment-main/Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    width: 80vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.latest-deals-heading{
+    font-size: 40px
+}
+.latest-deals-paragraph{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.subscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 65px;
+}
+.input{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+}
+input[type =text]:focus{
+    outline: none;
+}
+.sub-button{
+    width: 120px;
+    height: 50px;
 }
