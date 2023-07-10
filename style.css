@@ -263,8 +263,9 @@ body{
 }
 .load-btn{
     width: 120px;
-    height: 30px;
+    height: 50px;
     margin-top: 30px;
+    font-size: 15px;
 }
 .hline{
     color: #0e2050;
